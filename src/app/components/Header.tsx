@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { colors } from '@/app/constants/design-style';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface HeaderProps {
   className?: string;
@@ -24,22 +25,26 @@ const Header: React.FC<HeaderProps> = () => {
               height={40}
             />
             <span className="text-white font-inter font-medium text-xl">
+              <Link 
+                href={"/"}
+              >
               <Image
                 src="/Group 1216193939.svg"
                 alt="Yangseed Planet Logo"
                 width={80}
                 height={80}
               />
+              </Link>
             </span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <a 
-              href="#community" 
+            <Link 
+              href="/community" 
               className="text-white font-inter font-medium hover:text-[#52F5E5] transition-colors duration-300"
             >
               Community
-            </a>
+            </Link>
             <a 
               href="#store" 
               className="text-white font-inter font-medium hover:text-[#52F5E5] transition-colors duration-300"

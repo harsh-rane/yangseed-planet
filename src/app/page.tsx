@@ -16,7 +16,6 @@ const inter = Inter({ subsets: ['latin'] });
 export default function HomePage() {
   return (
     <div className={`${inter.className} min-h-screen bg-[#001122]`}>
-      <Header />
       <main>
         <Home />
         <FeaturesSection />
@@ -26,7 +25,6 @@ export default function HomePage() {
         <FAQSection />
         <ContactSection />
       </main>
-      <Footer />
     </div>
   );
 }

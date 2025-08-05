@@ -19,7 +19,11 @@ const HomePage: React.FC<HomePageProps> = ({ className = '' }) => {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{
-            backgroundImage: `url('/pexels-herman-io-1933116-3584309.png')`, // <-- Replace with your image path
+            background: `linear-gradient(135deg, ${colors.blue1} 0%, ${colors.blue2} 50%, ${colors.blue3} 100%)`,
+            backgroundImage: `linear-gradient(to bottom, rgba(0, 17, 34, 0) 50%, #001122 100%),  url('/bg-image.png')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
           }}
         />
       </div>
