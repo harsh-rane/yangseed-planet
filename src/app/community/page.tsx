@@ -97,7 +97,7 @@ const HealthWellnessLanding: React.FC = () => {
       >
         <div className="max-w-7xl mx-auto px-6 text-white">
           <div className="text-center mb-16">
-            <p className='text-white uppercase'>What you'll find inside</p>
+            <p className='text-white uppercase'>What you&apos;ll find inside</p>
             <h2 
               className="text-4xl md:text-5xl font-bold mb-6 text-white"
             >
@@ -323,16 +323,16 @@ const HealthWellnessLanding: React.FC = () => {
                   backgroundClip: 'text'
                 }}
               >
-                "You're Not Going This Alone"
+                &quot;You&apos;re Not Going This Alone&quot;
               </h2>
               
               <blockquote 
                 className="text-xl md:text-2xl leading-relaxed mb-8 italic"
                 style={{ color: colors.babyBlue }}
               >
-                "This community changed my perspective on wellness completely. For the first time, 
-                I felt understood and supported in my journey. The connections I've made here have 
-                become some of my strongest support systems."
+                &quot;This community changed my perspective on wellness completely. For the first time, 
+                I felt understood and supported in my journey. The connections I&apos;ve made here have 
+                become some of my strongest support systems.&quot;
               </blockquote>
 
               <div className="space-y-4">
@@ -385,9 +385,9 @@ const HealthWellnessLanding: React.FC = () => {
                 className="text-xl md:text-2xl leading-relaxed mb-8 italic"
                 style={{ color: colors.babyBlue }}
               >
-                "I discovered this community during one of the most challenging periods of my life. 
+                &quot;I discovered this community during one of the most challenging periods of my life. 
                 The support, resources, and genuine connections I found here helped me not just cope, 
-                but truly thrive. I'm forever grateful."
+                but truly thrive. I&apos;m forever grateful.&quot;
               </blockquote>
 
               <div className="flex items-center space-x-4 mb-8">
